@@ -1,0 +1,22 @@
+{
+  "name": "pascaltosnake",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cquentin26200/pascalToSnake.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cquentin26200/pascalToSnake/issues"
+  },
+  "homepage": "https://github.com/cquentin26200/pascalToSnake#readme",
+  "devDependencies": {
+    "mocha": "^9.2.1"
+  }
+}
