@@ -14,5 +14,3 @@ export const pascalToSnake = (entry) => {
     } 
     return newArray;
 }
-
-pascalToSnake("TestController");

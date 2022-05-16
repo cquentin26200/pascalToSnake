@@ -1,14 +1,6 @@
 import assert from "assert";
 import {pascalToSnake} from '../js/app.js';
 
-describe("Array", function () {
-  describe("#indexOf()", function () {
-    it("should return -1 when the value is not present", function () {
-      assert.equal([1, 2, 3].indexOf(4), -1);
-    });
-  });
-});
-
 describe("pascalToSnake", function () {
   it("should return test_controller", function () {
     assert.equal(pascalToSnake('TestController'), "test_controller");
@@ -23,9 +15,9 @@ describe("pascalToSnake", function () {
     assert.equal(pascalToSnake("Home"), "home");
   });
   it("should return play-movie", function () {
-    assert.equal(pascalToSnake("PlayMovie"), "play-movie");
+    assert.equal(pascalToSnake("Play5Movie"), "play5-movie");
   });
   it("should return 1", function () {
-    assert.equal(pascalToSnake(1), "1");
+    assert.equal(pascalToSnake([1, 9]), "1");
   });
 });
